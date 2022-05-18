@@ -1,14 +1,18 @@
-# Simple_Shell Project
-This project is a collaboration between Samuel Ifada and Israel Adenuga, actual students of Software Engineering at Alx School. It consists of developing and making our own UNIX command interpreter (Shell).
+#  Alx Simple_Shell Project
+This project is a collaboration between Adetayo Boluwatife Christiana and Grace Abraham, students of Software Engineering at Alx School. It is the solution of a task where we are to develope and make a UNIX command interpreter (Shell).
 The "Simple_shell" is a program that can be compiled and launched from the command line, where its main function is to execute commands read from the standard input.  It contains some of the basic features and functions found in the various shell programs like Kernel commands and builtin commands.
-# Quick Start
+
+# Start
+
 1. Git clone this respository to your local directory.
->https://github.com/adexino0606/Simple_Shell.git
+>https://github.com/gracetessy/Simple_Shell
 2. Compile the program.
 >$ gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
 3. Now execute the shell.
 >$ ./hsh
+
 # Builtin Commands
+
 This shell supports the next builtin commands:
 >cd - change directory
 >env - list the current environment variables
@@ -35,9 +39,10 @@ Example:
            An  interactive  shell is one started without non-option arguments, just running ./hsh. 
 Otherwise, when is started non-interactively, to run a shell script, for example, the 
 shell reads and execute the next command echo "pwd" | ./hsh.         .  .  .
-# Files
-Brief description of every file in this repository.
-Files and Description as follows;
+
+
+#Files and Description as follows;
+
 1. _atoi.c -function that gets sign and numbers of string.
 2. _calloc.c -function that allocates memory for an array.
 3. _change.c -functions that change the OLDPWD and PWD environment variables.
